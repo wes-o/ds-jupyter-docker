@@ -1,0 +1,24 @@
+version: '3.4'
+services:
+  notebook:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - NB_USER=jupyter
+        - NB_PORT=8888
+    container_name: project-dev
+    ports:
+      - "8888-8910:8888-8910"
+    volumes:
+      - ./data:/home/jovyan/work/volume_data/data
+      - ./notebooks:/home/jovyan/work/volume_data/notebooks
+      - ./references:/home/jovyan/work/volume_data/references
+      - ./src:/home/jovyan/work/volume_data/src
+      - ./test:/home/jovyan/work/volume_data/test
+
+# To run
+# docker-compose up
+
+# To stop
+# docker-compose down

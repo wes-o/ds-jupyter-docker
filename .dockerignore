@@ -1,0 +1,33 @@
+# Adding Files and Directories to reduce build time for Docker images.
+# Recommended to add large data files, or static assets that do not change.
+
+**/.classpath
+**/.dockerignore
+**/.env
+**/.venv
+**/.git
+**/.gitignore
+**/.project
+**/.settings
+**/.toolstarget
+**/.vs
+**/.vscode
+**/*.*proj.user
+**/*.dbmdl
+**/*.jfm
+**/azds.yaml
+**/bin
+**/charts
+**/docker-compose*
+**/Dockerfile*
+**/node_modules
+**/npm-debug.log
+**/obj
+**/secrets.dev.yaml
+**/values.dev.yaml
+LICENSE
+README.md
+
+/images
+/data
+venv
