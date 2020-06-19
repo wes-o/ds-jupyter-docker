@@ -15,7 +15,7 @@ Pre-Requisites:
 
 - A working Docker installation with Docker Compose (Community Edition, Desktop, or Toolbox).  
 
-Fast Installation:
+~Fast~ Installation:
 
 1) Open a new Terminal, run:  
 `git clone https://github.com/wes-o/ds-jupyter-docker <a-project-name>`  
@@ -27,3 +27,44 @@ Fast Installation:
 `docker-compose up --force-recreate --build`  
 
 ---
+
+### Motivation
+
+A clear ready-to-use project template for data science is not difficult to find. At the time of writing, my initial search for 'Data Science Project Structure' revealed over 1.2 billion results. The first ten results were from: individual organization pages on [Github](), blog posts from [Towards Data Science](), [Kaggle](), [DZone](), [Reddit](), and online articles from [GoDataDriven]() and [ThinkingOnData]().   
+
+These results range from offering advice for starting out, organizing a project structure, including certain libraries or software, and best practices for data science projects. The relevance of the results pertaining to my actual intention for the search query is beyond the scope of this template. However, my search (and countless hours prior) into the topic area highlighted a real need for detailed information and technical specifications.  
+
+> At this point you may ask, "Why?".   
+
+Starter kits and quick start guides are great places to start when the individual is *initially* learning about new software, or tools available for data science. Afterwards, the weary software developer or data analyst may want to put their work into a production environment, or push a project onto Github and share with their colleagues.  
+
+> Now, this is fantastic.  
+
+I have seen tremendous benefits of this personally, and for others on their own path of learning. It is critical to understand that at this stage in development every portion of the project should be documented. This task carries significant cost-savings for both personal projects, and time-critical work. (I have also found it lowers the probability of headaches in the future.)  
+
+A project that can be tested and troubleshooted on a continous basis will hold more presence in any data science pipeline.  
+
+> "I'll be first to admit that rushing headfirst into a project can be quite exhilirating. Although, I have realized that knowing when to stop rushing, and how to take a step back in order to document your work, can be difficult."  
+
+This project template is my working solution to clarify a gap that exists when starting a data science project with an initial inquiry, applying pre-processing data exploration and code testing, and deploying work done to share analysis, or collaborate with colleagues.  
+
+---
+
+### Installation References
+
+- Docker <https://docs.docker.com/engine/install/#supported-platforms>
+- Docker Compose <https://docs.docker.com/compose/install/>
+- Make <https://www.gnu.org/software/make/manual/make.html>
+
+> If you experience issues with your *Make* installation on Windows check out these two answers. For using Make with [Powershell](https://superuser.com/a/808818) and with [Gitbash](https://stackoverflow.com/a/43779544) on Windows. Also, there is a fantastic Gist by Evan Williams on improving your Gitbash with [optional](https://gist.github.com/evanwill/0207876c3243bbb6863e65ec5dc3f058) tools.
+
+### License
+
+Code released under the [MIT](https://github.com/wes-o/ds-jupyter-docker/blob/master/LICENSE) license.
+
+---
+
+Wes Oler Copyright &copy; 2020
+Created and maintained by [Wes Oler](https://github.com/wes-o). 
+
+
