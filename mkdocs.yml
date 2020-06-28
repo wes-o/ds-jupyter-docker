@@ -8,9 +8,9 @@ repo_url: 'https://github.com/wes-o/ds-jupyter-docker'
 nav:
     - Home: 'index.md'
     - Examples:
-        - 'All Examples': 'examples.md'
+        -'All Examples':'examples.md'
     - About:
-        - 'License': 'license.md'
+        -'License':'license.md'
 markdown_extensions:
     - toc:
         baselevel: 2
