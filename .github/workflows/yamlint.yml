@@ -1,3 +1,5 @@
+---
+# yamllint disable
 # Test for errors in YML/YAML files
 name: Yamlint- Check for errors
 on:
