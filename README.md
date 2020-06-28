@@ -7,6 +7,52 @@
 ### Overview
 
 ```bash
+├── data
+│   ├── model          <- trained model(s)
+│   ├── output         <- output from model
+│   ├── processed      <- cleaned input data for model
+│   └── raw            <- input data
+│
+├── docs               <- Documentation, serve online through Github pages, MkDocs, Sphinx.
+│
+├── notebooks          <- Jupyter notebooks.
+│
+├── references         <- All materials to explain project, bibliography, and 3rd party data sets.
+│
+├── results            <- Analysis for distribution: LaTeX, PDF, Final versions of .ipynb notebooks.
+│
+├── src                <- Source code for project.
+│   ├── __init__.py    <- Folder `src` is a Python module
+│   │
+│   ├── utils          <- Functions that provide ease-of-use for project
+│   │   └── utils.py
+│   │
+│   ├── data           <- Scripts to read and write data
+│   │   └── load_data.py
+│   │
+│   ├── processing     <- Scripts for processing data into input for model(s)
+│   │   └── create_model_for_notebook.py
+│   │
+│   ├── modeling       <- Scripts to train model(s)
+│   │   └── train_model.py
+│   │
+│   ├── model_evaluate <- Scripts to analyze model performance
+│   │   └── calculate_performance_metrics.py
+│   │
+│   └── visualization  <- Scripts to create plots, graphs, interactive or static
+│       └── visualise_data.py
+├── test               <- All tests that reference code in `src` directory.
+│
+├── .dockerignore      <- A file to segment which types of files/directories are not pushed to build of Docker.
+│
+├── .gitignore         <- A file to segment which types of files/directories are not pushed to Github.
+│
+├── docker-compose.yml <- A file to automate the build and run steps of creating a Docker image and running in a container.
+│
+├── Dockerfile         <- A dynamically typed file to create a Docker image.
+│
+├── mkdocs.yml         <- A file that contains configuration for MkDocs generator, ideal for project documentation.
+
 ```
 
 ### Installation
@@ -30,11 +76,11 @@ Pre-Requisites:
 
 ### Motivation
 
-A clear ready-to-use project template for data science is not difficult to find. At the time of writing, my initial search for 'Data Science Project Structure' revealed over 1.2 billion results. The first ten results were from: individual organization pages on [Github](), blog posts from [Towards Data Science](), [Kaggle](), [DZone](), [Reddit](), and online articles from [GoDataDriven]() and [ThinkingOnData]().   
+A clear ready-to-use project template for data science is not difficult to find. At the time of writing, my initial search for 'Data Science Project Structure' revealed over 1.2 billion results. The first ten results were from: individual organization pages on [Github](), blog posts from [Towards Data Science](), [Kaggle](), [DZone](), [Reddit](), and online articles from [GoDataDriven]() and [ThinkingOnData]().  
 
 These results range from offering advice for starting out, organizing a project structure, including certain libraries or software, and best practices for data science projects. The relevance of the results pertaining to my actual intention for the search query is beyond the scope of this template. However, my search (and countless hours prior) into the topic area highlighted a real need for detailed information and technical specifications.  
 
-> At this point you may ask, "Why?".   
+> At this point you may ask, "Why?".  
 
 Starter kits and quick start guides are great places to start when the individual is *initially* learning about new software, or tools available for data science. Afterwards, the weary software developer or data analyst may want to put their work into a production environment, or push a project onto Github and share with their colleagues.  
 
@@ -65,6 +111,4 @@ Code released under the [MIT](https://github.com/wes-o/ds-jupyter-docker/blob/ma
 ---
 
 Wes Oler Copyright &copy; 2020
-Created and maintained by [Wes Oler](https://github.com/wes-o). 
-
-
+Created and maintained by [Wes Oler](https://github.com/wes-o).

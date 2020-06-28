@@ -1,0 +1,12 @@
+
+nav:
+    - Home: 'index.md'
+    - Examples:
+        - 'All Examples': 'examples.md'
+    - About:
+        - 'License': 'license.md'
+
+markdown_extensions:
+    - toc:
+        baselevel: 2
+        permalink: "#"
