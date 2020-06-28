@@ -9,7 +9,7 @@ repo_url: 'https://github.com/wes-o/ds-jupyter-docker'
 nav:
     - Home: 'index.md'
     - Examples: 'examples.md'
-    - About: 'about.md'
+    - About: 'license.md'
 markdown_extensions:
     - toc:
         permalink: "#"
