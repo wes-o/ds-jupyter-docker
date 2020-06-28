@@ -1,5 +1,5 @@
 site_name: DS-Jupyter-Docker
-site_description: A template to organize a data science project
+site_description: A template to organize a data science project.
 site_author: Wes Oler
 docs_dir: docs/
 repo_name: 'wes-o/ds-jupyter-docker'
