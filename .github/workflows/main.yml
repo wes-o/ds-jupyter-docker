@@ -1,4 +1,5 @@
 ---
+# yamllint disable
 # Workflow for MkDocs
 name: Publish docs to GitHub Pages
 on:
