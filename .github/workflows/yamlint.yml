@@ -1,0 +1,31 @@
+# Test for errors in YML/YAML files
+name: Yamlint- Check for errors
+on:
+  pull_request:
+    branches:
+      - dev
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.6', '3.7', '3.8']
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Set up Python in 3 versions
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+          architecture: 'x64'
+
+      - name: Install yamllint
+        run: |
+          sudo apt-get install yamllint
+
+      - name: Test yamllint
+        run: |
+          yamllint .

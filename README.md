@@ -111,6 +111,4 @@ Code released under the [MIT](https://github.com/wes-o/ds-jupyter-docker/blob/ma
 ---
 
 Wes Oler Copyright &copy; 2020
-Created and maintained by [Wes Oler](https://github.com/wes-o). 
-
-
+Created and maintained by [Wes Oler](https://github.com/wes-o).

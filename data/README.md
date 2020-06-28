@@ -2,6 +2,8 @@
 
 Store your project data in subfolders and add any README files to enhance the description of your work.  
 
+- `/model`: One or many versions for data model process.
+
 - `/output`: Final versions of data files.  
 
 - `/processed`: Data files created from data cleaning and preprocessing.  
