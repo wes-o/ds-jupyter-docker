@@ -7,13 +7,10 @@ repo_name: 'wes-o/ds-jupyter-docker'
 repo_url: 'https://github.com/wes-o/ds-jupyter-docker'
 nav:
     - Home: 'index.md'
-    - Examples:
-        - 'All Examples': 'examples.md'
-    - About:
-        - 'License': 'license.md'
+    - Examples: 'examples.md'
+    - About: 'license.md'
 markdown_extensions:
     - toc:
-        baselevel: '2'
         permalink: "#"
 theme:
     name: mkdocs
