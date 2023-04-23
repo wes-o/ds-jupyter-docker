@@ -1,23 +1,26 @@
----
+
 # yamllint disable
 # Workflow for MkDocs
-name: Publish docs to GitHub Pages
+
+name: Publish docs via GitHub Pages
 on:
   push:
     branches:
-      - master
-    paths:
-      - docs/**
+      - main
+  pull_request:
 
 jobs:
   build:
     name: Deploy docs
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout master
-        uses: actions/checkout@v1
+      - name: Checkout main
+        uses: actions/checkout@v2
 
       - name: Deploy docs
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          # CUSTOM_DOMAIN: optionaldomain.com
+          # CONFIG_FILE: folder/mkdocs.yml
+          # REQUIREMENTS: folder/requirements.txt

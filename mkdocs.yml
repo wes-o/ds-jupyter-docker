@@ -14,5 +14,5 @@ markdown_extensions:
     - toc:
         permalink: "#"
 theme:
-    name: mkdocs
+    name: 'material'
     highlightjs: true
