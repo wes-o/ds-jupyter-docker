@@ -4,6 +4,8 @@
 
 *This template repository contains a working setup for starting a data science project.*
 
+Status: ![Main](https://github.com/wes-o/ds-jupyter-docker/actions/workflows/main.yml/badge.svg?branch=main)
+
 ### Overview
 
 ```bash
