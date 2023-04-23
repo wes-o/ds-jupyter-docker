@@ -14,5 +14,4 @@ markdown_extensions:
     - toc:
         permalink: "#"
 theme:
-    name: 'material'
-    highlightjs: true
+    name: bootstrap
