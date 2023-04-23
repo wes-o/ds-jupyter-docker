@@ -14,4 +14,4 @@ markdown_extensions:
     - toc:
         permalink: "#"
 theme:
-    name: bootstrap
+    name: mkdocs
